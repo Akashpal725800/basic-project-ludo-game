@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+     background:linear-gradient(180deg,#f5e6c8,#ffff) 
+}
+h1{
+    text-align: center;
+    margin: 20px;
+
+}
+
+.dies
+{
+   position: absolute;
+   left:60vh;
+    
+}
+.dies1
+{
+   position: absolute;
+   left:130vh;
+    
+}
+img{
+    position:absolute;
+    width:90px;
+    display: inline-block;
+    margin-right:40px;
+    top:22px;
+    border: none;
+}
+
+p{
+    position: absolute;
+    left:12px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.button1 button {
+    position: absolute;
+    background-color:rgb(22, 232, 11);
+    top:30vh;
+    padding: 10px;
+    width:90px;
+    border: none;
+    cursor: pointer;
+   border-radius: 8px;
+
+
+}
+
+
+.button2 button{
+ 
+    position: absolute;
+    background-color:rgb(22, 232, 11);
+    top:40vh;
+    left:130vh;
+    padding: 10px;
+    width:90px;
+    border: none;
+    cursor: pointer;
+   border-radius: 8px;
+   color:black;
+   
+}
+button:hover{
+    color:white;
+
+}
+@keyframes roll {
+  0%   { transform: rotate(0deg) scale(1); }
+  25%  { transform: rotate(90deg) scale(1.1); }
+  50%  { transform: rotate(180deg) scale(0.9); }
+  75%  { transform: rotate(270deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+#dice1,#dice2{
+    width: 90px;
+    display: inline-block;
+    margin-top: 22px;
+    position: relative;
+}
+.rolling{
+    animation: roll 0.8s ease-in-out;
+}
+
+ #result1{
+      position:absolute;
+    top:50vh;
+    width:190PX;
+    background-color: rgb(3, 14, 14);
+    color: aliceblue;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    font-weight: bold; 
+    letter-spacing: 1px;  
+     border-radius: 6px;
+}
+
+
+ #result2{
+    position:absolute;
+    top:50vh;
+    width:190PX;
+    background-color: rgb(3, 14, 14);
+    color: aliceblue;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    font-weight: bold; 
+    letter-spacing: 1px;   
+    border-radius: 6px;
+     
+}
+
+#score{
+
+    position:absolute;
+    top:40vh;
+    width:190PX;
+    background-color: rgb(3, 14, 14);
+    color: aliceblue;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    font-weight: bold; 
+    letter-spacing: 1px;   
+    border-radius: 6px
+          
+}
+#score2{
+
+    position:absolute;
+   left:130vh;
+    top:50vh;
+    width:190PX;
+    background-color: rgb(3, 14, 14);
+    color: aliceblue;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    font-weight: bold; 
+    letter-spacing: 1px;   
+    border-radius: 6px
+
+}
+
